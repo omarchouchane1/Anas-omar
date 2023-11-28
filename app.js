@@ -1,8 +1,15 @@
-let x = []
-x.push("omar")
-x.unshift("anas")
-x.unshift("tassnim")
-x.unshift("bacem")
-x.unshift("faouzi")
-x.push("taki")
-console.log(x)
+function Anas() {
+    console.log("Anas")
+}
+
+Anas()
+
+const Anas2 = function() {
+    console.log("Anas2")
+}
+
+Anas2()
+
+const Anas3 = () => console.log("Anas3")
+
+Anas3()
