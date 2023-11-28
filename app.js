@@ -1,3 +1,9 @@
-const x = () => console.log("Anas3");
+const x = -1
 
-console.log(typeof x)
+if (x == 0) {
+    console.log("Anas")
+} else if(x > 0) {
+    console.log(2)
+} else {
+    console.log("Omar")
+}
