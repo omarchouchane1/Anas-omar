@@ -1,15 +1,3 @@
-function Anas() {
-    console.log("Anas")
-}
+const x = () => console.log("Anas3");
 
-Anas()
-
-const Anas2 = function() {
-    console.log("Anas2")
-}
-
-Anas2()
-
-const Anas3 = () => console.log("Anas3")
-
-Anas3()
+console.log(typeof x)
